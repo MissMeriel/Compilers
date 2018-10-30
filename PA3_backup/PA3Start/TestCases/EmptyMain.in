@@ -1,0 +1,9 @@
+import meggy.Meggy;
+
+class EmptyMain {
+
+    public static void main(String[] args) {
+		// this is a comment
+		Meggy.setPixel((byte) 1, (byte) 2, Meggy.Color.ORANGE);
+    }
+}

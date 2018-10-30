@@ -1,0 +1,13 @@
+2018-09-17 09:45:07,143 [main] FATAL ui.Main - Assembly File passed in does not exist.
+2018-09-17 16:12:03,168 [main] FATAL ui.AVRSim - Encountered fatal error...
+java.lang.NullPointerException
+	at parse.ReadAssem.getProgram(ReadAssem.java:37)
+	at ui.AVRSim.loadAssemFile(AVRSim.java:67)
+	at ui.AVRSim.run(AVRSim.java:76)
+	at ui.Main.main(Main.java:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.simontuffs.onejar.Boot.run(Boot.java:340)
+	at com.simontuffs.onejar.Boot.main(Boot.java:166)

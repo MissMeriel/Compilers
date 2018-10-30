@@ -1,0 +1,4 @@
+symbol: #46  symbolValue:  [6  at: (1,1)  value: 6]
+symbol: #47  symbolValue:  [member_id  at: (1,2)  value: -1]
+symbol: #47  symbolValue:  [variable  at: (2,1)  value: -1]
+symbol: #47  symbolValue:  [badcomment  at: (3,2)  value: -1]
